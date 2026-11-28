@@ -1,0 +1,11 @@
+process.env.NODE_ENV              = 'test';
+process.env.PORT                  = '8081';
+process.env.DB_HOST               = 'localhost';
+process.env.DB_PORT               = '3306';
+process.env.DB_NAME               = 'test_db';
+process.env.DB_USER               = 'test_user';
+process.env.DB_PASSWORD           = 'test_password';
+process.env.CORS_ORIGINS          = 'http://localhost:5173,http://192.168.56.30:5173';
+process.env.LOG_LEVEL             = 'error';
+process.env.RATE_LIMIT_WINDOW_MS  = '60000';
+process.env.RATE_LIMIT_MAX_REQUESTS = '10000';
